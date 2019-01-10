@@ -1,0 +1,6 @@
+framework module Pods_ChatAppReal {
+  umbrella header "Pods-ChatAppReal-umbrella.h"
+
+  export *
+  module * { export * }
+}
