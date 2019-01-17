@@ -28,5 +28,18 @@ class GradientView: UIView {
         }
     }
     
+    override func layoutSubviews() {
+        
+        let gradinetLayer = CAGradientLayer()
+        gradinetLayer.colors = [topColor.cgColor, bottonColor.cgColor]
+        gradinetLayer.startPoint = CGPoint(x: 0, y: 0)
+        gradinetLayer.endPoint = CGPoint(x: 0, y: 0)
+        gradinetLayer.frame = self.bounds
+        self.layer.insertSublayer(gradinetLayer, at: 0)
+        
+        
+        
+    }
+    
     
 }
