@@ -18,4 +18,11 @@ class RearVC: UIViewController {
         
     }
 
-}
+    
+    @IBAction func loginPressed(_ sender: Any) {
+        
+        performSegue(withIdentifier: TO_Login, sender: nil)
+    }
+    
+}// End Of The Class
+
