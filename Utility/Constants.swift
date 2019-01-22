@@ -11,3 +11,6 @@ import Foundation
 
 //segue
 let TO_Login = "toLogin"
+let To_CreateAccount = "gotoCreateAccount"
+let To_Main = "unwind"
+
