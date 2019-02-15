@@ -1,7 +1,6 @@
 {
   "name": "chatappreal",
   "version": "1.0.0",
-  "description": "",
   "main": "l",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,6 @@
   "bugs": {
     "url": "https://github.com/00chalie00/ChatAppReal/issues"
   },
-  "homepage": "https://github.com/00chalie00/ChatAppReal#readme"
+  "homepage": "https://github.com/00chalie00/ChatAppReal#readme",
+  "description": ""
 }

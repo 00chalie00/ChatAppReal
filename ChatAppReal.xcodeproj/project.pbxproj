@@ -18,6 +18,8 @@
 		21A5745521E72B7D00510571 /* ChatAppRealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A5745421E72B7D00510571 /* ChatAppRealUITests.swift */; };
 		21AC1AF521F07279009EE90F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AC1AF421F07278009EE90F /* Constants.swift */; };
 		21AC1AF721F072F1009EE90F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AC1AF621F072F1009EE90F /* LoginVC.swift */; };
+		21E669CF221160B40015BBF1 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E669CE221160B40015BBF1 /* AuthService.swift */; };
+		21E79DB322151137002FB56B /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E79DB222151137002FB56B /* RoundedButton.swift */; };
 		21F0813E21F6F835003A5EFC /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F0813D21F6F835003A5EFC /* CreateAccountVC.swift */; };
 		65286ADDD65F499ABC120DDD /* Pods_ChatAppRealTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AE6A1A69943AFDCC4EEB0F /* Pods_ChatAppRealTests.framework */; };
 		A13B6D7D291824DEDE9D0B7D /* Pods_ChatAppRealUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D603C39587E42A03F780D6 /* Pods_ChatAppRealUITests.framework */; };
@@ -62,6 +64,8 @@
 		21A5745621E72B7D00510571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21AC1AF421F07278009EE90F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		21AC1AF621F072F1009EE90F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		21E669CE221160B40015BBF1 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		21E79DB222151137002FB56B /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		21F0813D21F6F835003A5EFC /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		31AE6A1A69943AFDCC4EEB0F /* Pods_ChatAppRealTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatAppRealTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CCE28081E1B216349F9FD38 /* Pods-ChatAppRealUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAppRealUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatAppRealUITests/Pods-ChatAppRealUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +131,7 @@
 			children = (
 				21A5743821E72B7B00510571 /* Main.storyboard */,
 				210D6BE821E875480083DA3C /* GradientView.swift */,
+				21E79DB222151137002FB56B /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 		21A5742821E72B7B00510571 = {
 			isa = PBXGroup;
 			children = (
+				21E669CD221160700015BBF1 /* Service */,
 				21AC1AF321F07266009EE90F /* Utility */,
 				210D6A5C21E72CB50083DA3C /* SupportFiles */,
 				210D6A6321E72DAF0083DA3C /* Model */,
@@ -199,6 +205,14 @@
 				21AC1AF421F07278009EE90F /* Constants.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		21E669CD221160700015BBF1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				21E669CE221160B40015BBF1 /* AuthService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		3B1D110B58E4740F7E7F18A2 /* Pods */ = {
@@ -457,8 +471,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				21A5743521E72B7B00510571 /* AppDelegate.swift in Sources */,
+				21E79DB322151137002FB56B /* RoundedButton.swift in Sources */,
 				21AC1AF521F07279009EE90F /* Constants.swift in Sources */,
 				21F0813E21F6F835003A5EFC /* CreateAccountVC.swift in Sources */,
+				21E669CF221160B40015BBF1 /* AuthService.swift in Sources */,
 				210D6A6021E72CCC0083DA3C /* SWRevealViewController.m in Sources */,
 				210D6BE921E875480083DA3C /* GradientView.swift in Sources */,
 				210D6A6721E738430083DA3C /* RearVC.swift in Sources */,
