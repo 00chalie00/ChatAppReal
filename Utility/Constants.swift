@@ -14,6 +14,7 @@ typealias CompletitionHandler = (_ Success: Bool) -> ()
 let TO_Login = "toLogin"
 let To_CreateAccount = "gotoCreateAccount"
 let To_Main = "unwind"
+let To_Avatar = "gotoAvatar"
 
 
 //UserDefault
@@ -25,4 +26,16 @@ let USER_EMAIL = "userEmail"
 //URL Constants
 let BASE_URL = "https://webapi20190207.herokuapp.com/v1/"
 let URL_REGISTER = "\(BASE_URL)account/register"
+let URL_LOGIN = "\(BASE_URL)account/login"
+let URL_USER_ADD = "\(BASE_URL)user/add"
 
+//HEADER
+
+let HEAD = ["Content-Type": "application/json; chartset=utf-8"]
+
+
+//Color
+let formatheadPurplePlaceHolder = #colorLiteral(red: 0.7490196078, green: 0.3529411765, blue: 0.9490196078, alpha: 0.5)
+ 
+//Notification Constants
+let NOTIF_USER_DATA_DID_CHANGE = Notification.Name("notifUSerDataChanged")

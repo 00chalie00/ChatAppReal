@@ -93,7 +93,18 @@ public struct JSON {
         let object: Any = try JSONSerialization.jsonObject(with: data, options: opt)
         self.init(jsonObject: object)
     }
-
+//    public init(data: Data, options opt: JSONSerialization.ReadingOptions = .allowFragments, error: NSErrorPointer = nil) {
+//        do {
+//            let object: Any = try JSONSerialization.jsonObject(with: data, options: opt)
+//            self.init(jsonObject: object)
+//        } catch let aError as NSError {
+//            if error != nil {
+//                error?.pointee = aError
+//            }
+//            self.init(jsonObject: NSNull())
+//        }
+//    }
+    
     /**
 	 Creates a JSON object
 	 - note: this does not parse a `String` into JSON, instead use `init(parseJSON: String)`
