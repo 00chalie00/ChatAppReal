@@ -17,6 +17,8 @@
 		21A5744A21E72B7D00510571 /* ChatAppRealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A5744921E72B7D00510571 /* ChatAppRealTests.swift */; };
 		21A5745521E72B7D00510571 /* ChatAppRealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A5745421E72B7D00510571 /* ChatAppRealUITests.swift */; };
 		21A70F442225203C0092562C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A70F432225203C0092562C /* CircleImage.swift */; };
+		21A70F55223257640092562C /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A70F53223257640092562C /* ProfileVC.swift */; };
+		21A70F56223257640092562C /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A70F54223257640092562C /* ProfileVC.xib */; };
 		21A89FA8221E8F3E0038927D /* AvatarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A89FA7221E8F3E0038927D /* AvatarVC.swift */; };
 		21A89FAA221E90700038927D /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A89FA9221E90700038927D /* AvatarCell.swift */; };
 		21AC1AF521F07279009EE90F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AC1AF421F07278009EE90F /* Constants.swift */; };
@@ -67,6 +69,8 @@
 		21A5745421E72B7D00510571 /* ChatAppRealUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppRealUITests.swift; sourceTree = "<group>"; };
 		21A5745621E72B7D00510571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21A70F432225203C0092562C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		21A70F53223257640092562C /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		21A70F54223257640092562C /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		21A89FA7221E8F3E0038927D /* AvatarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarVC.swift; sourceTree = "<group>"; };
 		21A89FA9221E90700038927D /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		21AC1AF421F07278009EE90F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -131,6 +135,7 @@
 				21AC1AF621F072F1009EE90F /* LoginVC.swift */,
 				21F0813D21F6F835003A5EFC /* CreateAccountVC.swift */,
 				21A89FA7221E8F3E0038927D /* AvatarVC.swift */,
+				21A70F53223257640092562C /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 		21A5742821E72B7B00510571 = {
 			isa = PBXGroup;
 			children = (
+				21A70F52223257440092562C /* XIBs */,
 				21E669CD221160700015BBF1 /* Service */,
 				21AC1AF321F07266009EE90F /* Utility */,
 				210D6A5C21E72CB50083DA3C /* SupportFiles */,
@@ -208,6 +214,14 @@
 				21A5745621E72B7D00510571 /* Info.plist */,
 			);
 			path = ChatAppRealUITests;
+			sourceTree = "<group>";
+		};
+		21A70F52223257440092562C /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				21A70F54223257640092562C /* ProfileVC.xib */,
+			);
+			path = XIBs;
 			sourceTree = "<group>";
 		};
 		21AC1AF321F07266009EE90F /* Utility */ = {
@@ -360,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21A5743C21E72B7D00510571 /* Assets.xcassets in Resources */,
+				21A70F56223257640092562C /* ProfileVC.xib in Resources */,
 				21A5743A21E72B7B00510571 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +497,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21A70F55223257640092562C /* ProfileVC.swift in Sources */,
 				21A5743521E72B7B00510571 /* AppDelegate.swift in Sources */,
 				21A89FA8221E8F3E0038927D /* AvatarVC.swift in Sources */,
 				21E79DB322151137002FB56B /* RoundedButton.swift in Sources */,
